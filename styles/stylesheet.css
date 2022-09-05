@@ -2,7 +2,7 @@
 body {
   width: 800x
   padding: 50px 50px
-  margin: 0 auto;
+  margin:0 auto;
   background-color: #444;
 }
 .intro-titles {text-align: center;}
@@ -34,7 +34,7 @@ h2 {
 }
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   width: 80%;
   line-height: 1.6;
   padding: 2.5px;
@@ -46,6 +46,7 @@ p {
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   word-spacing: 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -54,15 +55,18 @@ p {
   font-size: 18px;
   
   color: rgb(255, 255, 255);
-  padding: 5px;
+  padding: 10px;
 }
 .sutro-links {color: rgb(255, 255, 255);}
+.cliffhouse-link {color:rgb(255, 255, 255)}
 
 .sutro-baths-1 {
   width: 200px;
   height:200px;
-padding-top: 30px;}
-.sb-description {display: inline;
+padding-top: 30px;
+}
+.sb-description {
 color: rgb(255, 255, 255);
 }
-.flexbox-container {justify-content: center;}
+.flex-container {display:flex;
+justify-content:flex-start; flex-flow: row nowrap;}
