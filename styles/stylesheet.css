@@ -1,12 +1,12 @@
-
 body {
-  width: 800x
-  padding: 50px 50px
-  margin:0 auto;
+  width: 900px;
+
+  margin: 0 auto;
   background-color: #444;
 }
-.intro-titles {text-align: center;}
-
+.intro-titles {
+  text-align: center;
+}
 
 .menu {
   color: rgb(255, 255, 255);
@@ -21,10 +21,12 @@ h1 {
 }
 .intro {
   font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-size: 20px;
-  margin-left: 75px;
-  margin-right: 75px;
+  display: inline;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -46,27 +48,35 @@ p {
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   word-spacing: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
-
 
 .photographer {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  
-  color: rgb(255, 255, 255);
-  padding: 10px;
-}
-.sutro-links {color: rgb(255, 255, 255);}
-.cliffhouse-link {color:rgb(255, 255, 255)}
 
-.sutro-baths-1 {
+  color: rgb(255, 255, 255);
+  display: inline;
+}
+.sutro-links {
+  color: rgb(255, 255, 255);
+}
+.cliffhouse-link {
+  color: rgb(255, 255, 255);
+}
+
+.center {
   width: 200px;
-  height:200px;
-padding-top: 30px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 20px;
 }
-.sb-description {
-color: rgb(255, 255, 255);
+
+.flex-container {
+  display: flex;
+
+  flex-flow: wrap;
 }
-.flex-container {display:flex;
-justify-content:flex-start; flex-flow: row nowrap;}
